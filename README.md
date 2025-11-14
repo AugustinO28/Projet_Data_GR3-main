@@ -21,7 +21,7 @@ Ce projet vise à développer un modèle de prédiction permettant d'identifier 
 ### Étape 2 : Configurer Git (première fois)
 Installer **Git Bash** si ce n'est pas déjà fait
 
-Ouvrir le terminal dans VS Code et sélectionner **Git Bash**, puis exécuter :
+Ouvrir le terminal dans VS Code et sélectionner **Git Bash** (dans le menu "+" en haut à droite du terminal), puis exécuter :
 
 ```bash
 git config --global user.email votreemailgithub@gmail.com
