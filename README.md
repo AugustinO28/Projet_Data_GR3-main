@@ -1,57 +1,73 @@
-# Projet_Data_GR3
+# 📊 Prédiction de la Réussite des Étudiants
 
-Groupe : Brendan ROBIN, Noémie PETAT, Antoine GEZE, Augustin OWCA
+**Projet Data - GR3**
 
-Todo : ajouter github et intro projet
+## 👥 Équipe
+- Brendan ROBIN
+- Noémie PETAT
+- Antoine GEZE
+- Augustin OWCA
 
-Introduction au projet Data
+## 🎯 Objectif du Projet
+Ce projet vise à développer un modèle de prédiction permettant d'identifier les facteurs influençant la réussite académique des étudiants et de prédire leur performance.
 
-Sujet : prédiction de la réussite des étudiants
+## 🚀 Installation en Local
 
-# Installation en local
+### Étape 1 : Télécharger le Projet
+1. Cliquer sur **Code** → **Download ZIP**
+2. Extraire le dossier dans `Documents`
+3. Ouvrir **VS Code** → **File** → **Open Folder** → sélectionner le dossier téléchargé
 
-Cliquer sur Code puis download Zip
+### Étape 2 : Configurer Git (première fois)
+Installer **Git Bash** si ce n'est pas déjà fait
 
-Extraire le dossier où vous voulez (Documents)
-
-Ouvrir VSCode puis File -> Open Folder -> sélectrionner le dossier téléchargé
-
-Une fois ouvert : se connecter à github sur vscode
-
-Installez git bash
-
-Ouvrez le terminal, puis cliquer sur le petit plus et choisir git bash, puis : 
+Ouvrir le terminal dans VS Code et sélectionner **Git Bash**, puis exécuter :
 
 ```bash
-git config --global user.email monemailgithub@gmail.com
+git config --global user.email votreemailgithub@gmail.com
 ```
 
 ```bash
-git config --global user.name usernamegithub
+git config --global user.name votrenomusergithub
 ```
 
+---
 
-# Gestion de git : partage de code
+## 📝 Gestion du Code avec Git
 
-1. 
+### Workflow de Collaboration
+
+#### 1. **Récupérer les dernières modifications**
 ```bash
 git pull https://github.com/AugustinO28/Projet_Data_GR3.git
-
 ```
-2. Créer une nouvelle branche et la nommer en lien avec les changements à effectuer :
+
+#### 2. **Créer une nouvelle branche**
+Nommez la branche en relation avec vos modifications :
 ```bash
-git checkout -b nom-de-la-branche
+git checkout -b nom-descriptif-de-la-branche
 ```
-On voit le nom de la branche dans le terminal
+*(Le nom de la branche apparaît dans le terminal)*
 
-3. Faire des changements, ctrl S pour sauvegarder
+#### 3. **Faire vos modifications**
+- Développez votre code
+- Testez vos changements pour vous assurer qu'ils fonctionnent
+- Sauvegardez vos fichiers (Ctrl+S)
 
-4. tester que le code fonctionne bien avec les changements
+#### 4. **Vérifier vos changements**
+- Allez dans l'onglet **Source Control** (menu gauche de VS Code)
+- Vous verrez tous vos changements listés
 
-5. Dans Source Control (menu à gauche vscode), vous voyez les changements.
+#### 5. **Committer vos changements**
+- Cliquez sur le **+** pour ajouter les fichiers modifiés
+- Écrivez un **message de commit** explicite décrivant vos changements
+- Cliquez sur **Commit**
 
-cliquez sur le petit + pour les ajouter (add), puis écrire un message de Commit (expliquer les changements), puis Commit
+#### 6. **Publier vos changements**
+- Cliquez sur **Sync Changes** pour pousser vos modifications sur GitHub
 
-Enfin, Syncchanges et cela va publier les changements sur le github
-
-6. Merge de branche : une fois le travail du changement global terminé, aller sur github pour merge la branche de l'évolution sur main.
+#### 7. **Fusionner votre branche**
+Une fois votre travail terminé et validé :
+- Allez sur **GitHub**
+- Créez une **Pull Request** (PR)
+- Faites **Merge** de votre branche vers `main` après révision
