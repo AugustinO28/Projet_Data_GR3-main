@@ -6,5 +6,4 @@ Todo : ajouter github et intro projet
 
 Introduction au projet Data
 
-
-Mon Kaggle est : 
+Sujet : prédiction de la réussite des étudiants
